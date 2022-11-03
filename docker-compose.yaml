@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  token-service:
+    build: .
+    ports:
+      - 8082:5000
